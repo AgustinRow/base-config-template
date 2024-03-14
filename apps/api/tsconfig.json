@@ -1,0 +1,29 @@
+{
+  "extends": "@template/config-typescript/tsconfig.json",
+  "ts-node": {
+    "files": true,
+    "require": [
+      "tsconfig-paths/register"
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/index.ts"
+, "src/inde.js"  ],
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "baseUrl": "./src",
+    "paths": {
+      "~/*": [
+        "*"
+      ]
+    }
+  },
+  "references": [
+    {
+      "path": "../../config/typescript"
+    },
+  ]
+}

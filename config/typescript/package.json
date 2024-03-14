@@ -1,0 +1,5 @@
+{
+  "name": "@template/config-typescript",
+  "private": true,
+  "packageManager": "yarn@3.3.0"
+}

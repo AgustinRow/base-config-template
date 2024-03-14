@@ -1,0 +1,21 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "author": "AgustinRow",
+  "description": "",
+  "type": "module",
+  "license": "ISC",
+  "private": true,
+  "packageManager": "yarn@3.3.0",
+  "workspaces": [
+    "apps/api",
+    "config/eslint",
+    "config/typescript"
+  ],
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "engines": {
+    "node": "~18.12.1"
+  }
+}

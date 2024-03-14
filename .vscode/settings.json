@@ -1,0 +1,16 @@
+{
+  "eslint.packageManager": "yarn",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "files.autoSave": "onWindowChange",
+  "editor.formatOnSave": true,
+  "eslint.format.enable": true,
+  "eslint.codeActionsOnSave.rules": null,
+  "standard.autoFixOnSave": true,
+  "eslint.validate": [
+    "typescript"
+  ],
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+}

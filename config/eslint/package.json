@@ -1,0 +1,22 @@
+{
+  "name": "@template/config-eslint",
+  "packageManager": "yarn@3.3.0",
+  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/eslint": "^8",
+    "@typescript-eslint/parser": "^5.33.0",
+    "eslint": "^8.21.0",
+    "eslint-config-standard-with-typescript": "^22.0.0",
+    "typescript": "^4.9.4"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "*",
+    "@typescript-eslint/parser": "*",
+    "eslint": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-n": "*",
+    "eslint-plugin-promise": "*"
+  }
+}
