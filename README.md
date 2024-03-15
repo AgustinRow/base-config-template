@@ -1,32 +1,18 @@
-# base-config-template
+# Template Command Line interface
 
-Basic setup configuration for typescript project to use in Visual Studio Code.
+template for quickly instantiate your project 
 
-It is dessigend for backend or a monorepo, as it uses workspases feature from `yarn`. 
+## Initialization
 
-## Init
+- `npm install`
 
-- 1: `yarn` in root directory.
+- `npm start` will prompt in your terminal `What project template would you like to use` 
 
-Thats it 🚀
-
-## Configiguration
-
-### Eslint configuration
-
-Under config/eslint you can find the `.eslintrs.json` file with the configuration
-
-Remember to enable the eslint plugin for the workspace and disable prettier too. If something did not wok as expected take a look at the previous plugins installed within your IDE.
-
-### Typescript configuration
-
-Under config/typescript you can find the `tsconfig.json` file with the typescriot configuration.
-
-## Libraries
-
-TO-DO: under lib add the libraries that will be required for most of the project such as, Errors, input validation, types, result, etc
+- For make it available in your CLI globally run `npm install -g` 
 
 
-## NPM available
+## Extend
 
-TO-DO: make it able to download with npm... soon
+If you want to extend and add new projects to instantiate, you should only have to add them in `template` folder.
+
+Remember to install again everything
